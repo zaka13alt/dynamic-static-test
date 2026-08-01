@@ -42,7 +42,7 @@
     "set-cookie-parser": "^2.6.0"
   },
   "type": "module",
-  "devDependencies": {
+    "devDependencies": {
     "@types/cookie": "^0.5.1",
     "@types/crypto-js": "^4.1.1",
     "@types/mime-db": "^1.43.1",
@@ -51,5 +51,10 @@
     "execa": "^8.0.1",
     "ts-node": "^10.8.1",
     "typescript": "^5.1.6"
+  },
+  "overrides": {
+    "glob": "^11.0.0",
+    "inflight": "npm:lru-cache@^10.0.0"
   }
 }
+
